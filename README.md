@@ -1,2 +1,2 @@
-# Religious-Research
+# Religious-Research-Repo
 Religious Research Repository
