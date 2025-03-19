@@ -18,9 +18,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider defaultTheme="light" storageKey="religious-research-theme">
           <div className="relative min-h-screen flex flex-col">
             <SiteHeader />
             <div className="flex-1">{children}</div>
